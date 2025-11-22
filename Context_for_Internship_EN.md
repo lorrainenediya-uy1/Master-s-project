@@ -18,7 +18,7 @@ After studying this document, you should be able to:
 
 ### A simple analogy to grasp photosensitizers
 
-Imagine a photosensitizer (PS) as a **sophisticated light-controlled micro-switch**. Picture a miniature electrical switch, but instead of activating it with your finger, light does the job. This switch is installed on a locked door, representing a chemical reaction or an electronic process that is "blocked" or very slow. When light strikes this "switch" (our TMDC), it provides exactly the energy needed to activate it and open the door. This "door opening" can signify the release of an adsorbed molecule, the rapid activation of a chemical reaction, or the modification of an electronic property. This mechanism allows for a significant improvement in processes (such as gas detection or a chemical reaction) that would be very slow or inefficient without light, paving the way for significant advancements in many fields.
+Imagine a photosensitizer (PS) as a **sophisticated light-controlled micro-switch**. Picture a miniature electrical switch, but instead of activating it with your finger, light does the job. This switch is installed on a locked door, representing a chemical reaction or an electronic process that is "blocked" or very slow. When light strikes this "switch" (our TMDC), it provides exactly the energy needed to activate it and open the door. This "door opening" can signify the release of an adsorbed molecule, the rapid activation of a chemical reaction, or the modification of an electronic property. This mechanism significantly improves processes (such as gas detection or a chemical reaction) that would otherwise be very slow or inefficient, paving the way for advancements in many fields.
 
 **(Visual suggestion: A simple illustration of a switch activated by a light beam, opening a door. The door could have icons representing 'chemical reaction' or 'gas detection'.)**
 
@@ -26,13 +26,13 @@ Imagine a photosensitizer (PS) as a **sophisticated light-controlled micro-switc
 
 ### 2.1 Challenges of current technologies: The gas detection dilemma
 
-Traditional gas sensors, based on semiconductor metal oxides (SMOX), are widely used due to their low cost and sensitivity. However, they present a major drawback: **they require high operating temperatures** (typically >200°C) to achieve optimal sensitivity and selectivity. This thermal requirement poses several critical problems:
+Traditional gas sensors, based on semiconductor metal oxides (SMOX), are widely used due to their low cost and sensitivity. However, they present a major drawback: **they require high operating temperatures** (typically >200°C) to achieve optimal sensitivity and selectivity. This thermal requirement creates several key challenges:
 
--   **Limits their use in portable and IoT devices**: The heat generated is incompatible with discreet, energy-efficient gadgets.
--   **Consumes significant energy**: Constant heating is energy-intensive, reducing device autonomy.
--   **Hinders integration into mobile or flexible systems**: Rigidity and heat are major obstacles.
+-   **Limits use in portable and IoT devices**: The heat generated makes them unsuitable for discreet, energy-efficient gadgets.
+-   **High energy consumption**: Constant heating is energy-intensive, reducing device autonomy.
+-   **Hindrance to integration**: Their rigidity and heat make integration into mobile or flexible systems difficult.
 
-It is in this context that the search for alternative materials, capable of operating efficiently at room temperature, becomes crucial. This project addresses this challenge by exploring how TMDC-based photosensitizers can fill this gap, enabling more efficient and versatile gas detection.
+Thus, the search for alternative materials that can operate efficiently at room temperature is essential. This project addresses this challenge by exploring how TMDC-based photosensitizers can fill this gap, enabling more efficient and versatile gas detection.
 
 ### 2.2 Advantages of 2D materials (TMDCs): A new era of materials
 
@@ -42,7 +42,7 @@ Transition metal dichalcogenides (TMDCs), such as MoS₂, WS₂, MoSe₂, and WS
 -   **High surface-to-volume ratio**: Maximizes interaction sites for gas molecules or other reactants, making virtually all atoms available for interaction.
 -   **Unique optical properties**: Many exhibit a direct band gap in the monolayer configuration, which is ideal for light absorption and emission.
 -   **Room-temperature operation**: Unlike SMOX, their activity can be induced or modulated by light without requiring external heating.
--   **Mechanical flexibility**: Their 2D nature grants them great suppleness, allowing integration into flexible electronic devices.
+-   **Mechanical flexibility**: Their 2D nature provides excellent flexibility, enabling integration into flexible electronic devices.
 
 ## 3. What is a photosensitizer and how does it work?
 
@@ -72,7 +72,7 @@ The potential applications of these materials are vast and impactful:
 
 ## 4. Unique properties of TMDCs as photosensitizers
 
-TMDCs possess intrinsic characteristics that set them apart and make them particularly well-suited for photosensitization:
+TMDCs have unique properties that make them especially well-suited for photosensitization:
 
 ### 4.1 Direct band gap in monolayers
 
@@ -87,7 +87,7 @@ Unlike many conventional semiconductors (including bulk TMDCs which often have a
 
 The extremely thin nature of a single atomic layer (two-dimensionality) creates **quantum confinement** for electrons and holes in the direction perpendicular to the material's plane. This effect has major consequences:
 -   **Strengthens light-matter interactions**: Photon energy is more efficiently coupled to confined electrons.
--   **Increases exciton binding energy**: Excitons are more stable and persist longer, which is crucial for energy transfer.
+-   **Increases exciton binding energy**: Excitons are more stable and persist longer, which is  for energy transfer.
 -   **Modifies electronic properties**: The band gap widens, and optical properties are significantly enhanced compared to the bulk forms of the same material.
 
 **(Visual suggestion: A schematic representation of a particle in a 2D box to illustrate confinement, compared to a 3D material.)**
@@ -97,11 +97,11 @@ The extremely thin nature of a single atomic layer (two-dimensionality) creates 
 In TMDCs containing heavy metals (such as tungsten W or molybdenum Mo), **spin-orbit coupling** is a significant relativistic phenomenon. It describes the interaction between an electron's spin and its orbital motion. This coupling:
 -   **Splits electronic bands**: It induces a splitting of energy levels (spin splitting) in the valence and conduction bands, particularly pronounced at the K and K' points of the Brillouin zone.
 -   **Influences transport and optical properties**: This splitting can be harnessed to control electron spin with light, opening prospects for opto-spintronics.
--   **Crucial for certain spintronic applications**: Spin manipulation is at the heart of future information and communication technologies.
+-   ** for certain spintronic applications**: Spin manipulation is at the heart of future information and communication technologies.
 
 ## 5. Theoretical calculation methodology: Understanding the invisible
 
-To quantitatively evaluate the photosensitizing potential of TMDCs and understand the underlying atomic and electronic mechanisms, we employ a **multi-scale computational approach** based on the fundamental principles of quantum mechanics. This methodology allows for detailed exploration of complex materials and interactions, thus guiding design and optimization even before experimental synthesis.
+To quantitatively assess the photosensitizing potential of TMDCs and elucidate their atomic and electronic mechanisms, we utilize a multi-scale computational approach grounded in the fundamental principles of quantum mechanics. This methodology allows for detailed exploration of complex materials and interactions, thus guiding design and optimization even before experimental synthesis.
 
 ### 5.1 Density functional theory (DFT)
 
@@ -123,7 +123,7 @@ Certain standard DFT calculation methods may have limitations, particularly in a
 
 -   **HSE06 correction**: This is a hybrid functional that corrects electron self-interaction and significantly improves the accuracy of the band gap and electronic properties compared to standard functionals (like PBE-GGA).
 -   **Spin-orbit coupling (SOC)**: Its inclusion in calculations is indispensable for TMDCs containing heavy elements, to accurately capture band splitting and its consequences on optical and transport properties.
--   **GW-BSE (Green's function GW and Bethe-Salpeter equation)**: These are more computationally expensive but much more precise post-DFT methods for calculating quasiparticle energies (GW) and bound excitons (BSE). They are crucial for an exact description of electron-hole interactions and exciton binding energies, key indicators of photosensitizer efficiency.
+-   **GW-BSE (Green's function GW and Bethe-Salpeter equation)**: These are more computationally expensive but much more precise post-DFT methods for calculating quasiparticle energies (GW) and bound excitons (BSE). They are essential for an exact description of electron-hole interactions and exciton binding energies, key indicators of photosensitizer efficiency.
 
 ### 5.4 Analysis of gas-surface interactions and dynamics
 
@@ -147,25 +147,25 @@ Beyond the intrinsic properties of the material, it is vital to understand how T
 
 ### 7.1 Links with experimental measurements: Validating our predictions
 
-Theoretical calculations, while powerful, are models of reality. To ensure their relevance and accuracy, they must be **validated by experimental measurements** obtained from real materials. This theory-experiment confrontation is fundamental:
+Theoretical calculations, while powerful, are models of reality. To ensure their relevance and accuracy, theoretical calculations must be validated by experimental measurements. This alignment between theory and experiment is essential:
 
--   **Photoluminescence (PL)**: Direct measurement of light emission by the TMDC after excitation. PL spectra provide crucial information on the nature, energy, and lifetime of excitons, allowing direct comparison with GW-BSE predictions.
+-   **Photoluminescence (PL)**: Direct measurement of light emission by the TMDC after excitation. PL spectra provide  information on the nature, energy, and lifetime of excitons, allowing direct comparison with GW-BSE predictions.
 -   **Absorption spectroscopy**: Measurement of the amount of light absorbed by the material as a function of wavelength. Experimental absorption spectra are compared to TD-DFT predictions to validate the description of excited states.
 -   **Electrical measurements (e.g., I-V)**: Confirmation of TMDC conductivity changes in the presence of gas and/or light. These measurements validate predictions on charge transfer and its impact on chemo-resistive detection.
 -   **Atomic force microscopy (AFM) or electron microscopy (SEM/TEM)**: To characterize the morphology and structure of TMDCs, often in support of geometric calculations.
 
 ### 7.2 Targeted applications: The future impact
 
-This project aims to provide the fundamental knowledge to develop cutting-edge technologies:
+This project aims to provide the fundamental knowledge to develop  technologies:
 
 1.  **Ultra-fast, room-temperature gas sensors**: Detection of atmospheric pollutants (NO₂, NH₃, CO) or breath biomarkers at unprecedented sensitivity levels, without requiring heating, which is ideal for portable devices and IoT.
 2.  **High-performance photodetection**: Design of highly efficient optical sensors for a wide range of applications, from medical imaging to optical communication systems.
-3.  **Photocatalysis for sustainable environment**: Development of light-activated catalysts for crucial applications like the degradation of micropollutants in water or hydrogen production from water, contributing to the energy transition.
+3.  **Photocatalysis for sustainable environment**: Development of light-activated catalysts for  applications like the degradation of micropollutants in water or hydrogen production from water, contributing to the energy transition.
 4.  **Precision medicine (long-term potential)**: Exploiting the photosensitization mechanism for targeted therapies, such as the selective destruction of cancer cells or controlled drug release via light.
 
 ## 8. Conclusion: Shaping the future of photo-active materials
 
-This project represents a fundamental and applied exploration of transition metal dichalcogenides as next-generation photosensitizers. By leveraging the power of advanced theoretical calculation methods, we aim to **understand, predict, and optimize** their properties at the atomic and electronic scale. The objective is clear: to **design and guide the development of 2D photo-active materials** for innovative applications in critical fields such as sensing, photodetection, catalysis, and potentially medicine. Through this rigorous computational approach, we hope to accelerate the discovery and engineering of material solutions that will significantly shape the technologies of the future.
+This project represents a fundamental and applied exploration of transition metal dichalcogenides as next-generation photosensitizers. By leveraging the power of advanced theoretical calculation methods, we aim to **understand, predict, and optimize** their properties at the atomic and electronic scale. Our objective is clear: to **design and guide the development of 2D photo-active materials** for innovative applications in critical fields such as sensing, photodetection, catalysis, and potentially medicine. Through this rigorous computational approach, we aim to accelerate the discovery and engineering of material solutions that will significantly influence future technologies.
 
 ---
 
