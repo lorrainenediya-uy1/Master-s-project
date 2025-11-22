@@ -32,7 +32,7 @@ This repository gathers the theoretical background, computational workflows, scr
 
 ## Contact
 
-###  Project owner: Lorraine Nediya  
+###  Project owner:  https://github.com/lorrainenediya-uy1
 ###  Affiliation: University of Yaoundé I, Cameroon
 
 ---
