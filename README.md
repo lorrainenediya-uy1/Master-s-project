@@ -1,11 +1,33 @@
-# Master’s Project — Présentation du sujet
+# THEORETICAL EVALUATION OF TMDCs AS PHOTOSENSITIZERS
 
-Ce dépôt contient les documents de présentation du sujet du projet de Master. Les fichiers sont fournis au format PDF et regroupés dans le dossier `presentation_sujet`.
+## Abstract
+This repository gathers the theoretical background, computational workflows, scripts, and data for a master's project on transition metal dichalcogenides (TMDCs) as photosensitizers. The aim is to assess their optical properties, excited state features, and charge-transfer characteristics to determine their utility in photochemical and photovoltaic applications.
 
-## Structure du dépôt
+**Keywords:** TMDC, transition metal dichalcogenides, photosensitizer, DFT, TD-DFT, GW-BSE, exciton, optical absorption, spin–orbit coupling, charge transfer
 
-- presentation_sujet/Abstract.pdf  
-  Bref résumé (abstract) du projet. Contient les objectifs principaux, la problématique et un aperçu des méthodes proposées.
+---
 
-- presentation_sujet/Subject_Presentation.pdf  
-  Présentation complète du sujet (diaporama). Inclut le contexte, la revue de la littérature, la méthodologie, le calendrier et les résultats/esquisses attendus.
+## Goals
+
+- Understand the impact of TMDC structure and composition on their photophysical properties.
+- Develop and validate computational models for key TMDCs (MoS₂, WS₂, MoSe₂, WSe₂).
+- Quantify band gaps, absorption spectra, and excitonic features using first-principles methods (DFT, GW-BSE, TD-DFT).
+- Assess charge-transfer alignment and excited state lifetimes for practical photosensitizer scenarios.
+
+
+## Repository Content
+
+
+---
+
+## Methodology and Workflow
+
+
+## Future Perspectives
+
+## Contact
+
+# Project owner: Lorraine Nediya  
+# Affiliation: University of Yaoundé I, Cameroon
+
+---
